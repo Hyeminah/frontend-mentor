@@ -1,0 +1,263 @@
+/* header */
+
+.logo {
+    height: 20 px;
+    width: 120px;
+    padding-right: 660px;
+
+}
+
+/* body */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#button1 {
+    border: solid hsl (321, 100%, 78%) 2px;
+    background-color: white;
+    border-radius: 50px;
+    color: hsl(321, 100%, 78%);
+    padding: 5px 2%;
+    /* Using percentages for horizontal padding */
+    text-align: center;
+    font-weight: 600;
+    width: auto;
+    /* make the button change with the window */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+@media (max-width: 375px) {
+    .button {
+        width: 100%;
+    }
+}
+
+.sectionOne,
+.sectionSix {
+    /*section One = my first box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+}
+
+.screen {
+    display: flex;
+    /* Use flexbox for centering */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    padding: 30, 50, 30, 100;
+
+}
+
+.screen {
+    width: 75%;
+    /* Ensure the image does not exceed the container's width */
+
+}
+
+#button2 {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    /* White text color */
+    padding: 10px 20px;
+    /* Adjust padding as needed */
+    border: solid hsl(322, 100%, 66%) 2px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    top: 50%;
+    /* Vertically center the button */
+    left: 50%;
+    /* Horizontally center the button */
+    z-index: 2;
+    /* Ensure the button is displayed above the image */
+    /* Adjust the width and height for a bigger button */
+    width: 175px;
+    /* Set the desired width */
+    height: 50px;
+    /* Set the desired height */
+
+}
+
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive {
+    /*section Two = my second box*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-communities {
+    padding-right: 10px;
+    width: 35px;
+}
+
+@media screen and (max-width: 375px) {
+    .icon-communities {
+        width: auto;
+    }
+}
+
+.iconCommunitiesNumber {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .iconCommunitiesNumber {
+        position: relative;
+        /* Revert to normal document flow */
+        top: 20px;
+        /* Adjust the vertical position as needed */
+
+    }
+
+}
+
+.iconText {
+    padding-bottom: 100px;
+    opacity: 0.5;
+}
+
+
+.icon-messages {
+    padding-right: 10px;
+    width: 35px;
+}
+
+@media screen and (max-width: 375px) {
+    .icon-messages {
+        width: auto;
+    }
+}
+
+.iconMessagesNumber {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 375px) {
+    .iconMessagesNumber {
+        position: relative;
+        /* Revert to normal document flow */
+        top: 20px;
+        /* Adjust the vertical position as needed */
+
+    }
+
+}
+
+.wavetop,
+.wavebottom,
+.wavetop2,
+.wavebottom2 {
+    width: 100vw;
+    margin: 0px
+}
+
+
+.sectionThree,
+.sectionFive {
+    background-color: hsl(207, 100%, 98%);
+    margin: -10px 0 -10px 0px;
+    padding-left: 10px;
+}
+
+.grow-together,
+.flowing-conversation,
+.your-users {
+    height: auto;
+    /* Allow the height to adjust proportionally */
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 375pxgi) {
+
+    .grow-together,
+    .flowing-conversation,
+    .your-users {
+        width: 100%;
+        /* Set the width to 100% of the viewport */
+    }
+}
+
+.growTitle,
+.flowingTitle,
+.yourusersTitle,
+.readyTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.growText,
+.flowingText,
+.yourusersText {
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.wavefooter {
+    background-color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+    color: white;
+    text-align: left;
+    
+
+}
+a{
+    color:white;
+    text-decoration:none ;
+}
+p {
+    max-width: 80%;
+    text-align: center;
+}
+
+.submit {
+    gap: 0px;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+input {
+    width: 45%;
+}
+
+footer .button {
+
+    width: 45%;
+    margin-right: 0px;
+
+}
